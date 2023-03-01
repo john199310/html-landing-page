@@ -1,0 +1,51 @@
+.jq-stars {
+  display: inline-block;
+}
+
+.jq-rating-label {
+  font-size: 22px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  font-family: helvetica, arial, verdana;
+}
+.search-star{
+  .jq-star {
+  width: 20px !important;
+  height: 20px !important;
+  }
+}
+.jq-star {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jq-star-svg {
+  padding-left: 3px;
+  width: 100%;
+  height: 100%;
+
+  path {
+    /* stroke: #000; */
+    stroke-linejoin: round;
+  }
+}
+
+/* un-used */
+
+.jq-shadow {
+  -webkit-filter: drop-shadow(-2px -2px 2px #888);
+  filter: drop-shadow(-2px -2px 2px #888);
+}
+
+.rating-stars i {
+  padding: 5px;
+}
+
+.rating-stars {
+  font-size: 30px;
+}
+
+.rating-stars.search-star{
+  font-size: 20px;                
+}

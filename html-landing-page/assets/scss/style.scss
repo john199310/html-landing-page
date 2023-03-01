@@ -1,0 +1,288 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project        :   Zanex – Bootstrap  Admin & Dashboard Template
+Version        :   V.6
+Create Date    :   24-Mar-2022
+Copyright      :   Spruko Technologies Private Limited 
+Author         :   Spruko
+Author URL     :   https://themeforest.net/user/spruko
+Support	       :   support@spruko.com
+License        :   Licensed under ThemeForest License
+
+-------------------------------------------------------------------*/
+@import "variables";
+
+
+/*
+--- bootstrap-styles
+--- accordion
+--- alert
+--- avatars
+--- badges
+--- blackquote
+--- breadcrumb
+--- button
+--- buttons
+--- cards
+--- carousel
+--- dropdown
+--- forms
+--- grid
+--- input-group
+--- modal
+--- navigation
+--- pagination
+--- panel
+--- popover
+--- progress
+--- tables
+--- tags
+--- thumbnail
+--- tooltip
+--- components-col
+--- count-down
+--- custom-forms
+--- custom-styles
+--- file-manager
+--- font
+--- gallery
+--- highlight
+--- labels
+--- list-group
+--- media
+--- navbar
+--- pricing
+--- rating
+--- tabs-menu
+--- timeline
+--- footer
+--- header
+--- horizontal-menu
+--- icons-list
+--- item-styles
+--- loaders
+--- rtl
+--- sidemenu
+--- datepicker
+--- jvector
+--- select2
+--- select-group
+--- selectize
+--- accordion
+--- bootstrap-datepicker
+--- buttons.bootstrap5.min
+--- c3-chart
+--- clndr
+--- dataTables.bootstrap5
+--- date-picker
+--- daterangepicker
+--- demo
+--- fancy_fileupload
+--- fileupload
+--- flipclock
+--- fullcalendar
+--- gallery
+--- intlTelInput
+--- ion.rangeSlider
+--- ion.rangeSlider.skinFlat
+--- query-jvectormap-2.0.2
+--- jquery.countdown
+--- jquery.growl
+--- jquery.steps
+--- jquery.timepicker
+--- jquery.transfer
+--- jquerysctipttop
+--- jquerytransfer-icon_font
+--- leaflet
+--- main
+--- morris
+--- multi.min
+--- multiple-select
+--- notifIt
+--- nv.d3
+--- owl.carousel
+--- perfect-scrollbar
+--- quill.bubble
+--- quill.snow
+--- responsive.bootstrap5
+--- richtext
+--- select2.min
+--- sidebar
+--- smart_wizard_theme_arrows
+--- smart_wizard_theme_circles
+--- smart_wizard_theme_dots
+--- smart_wizard
+--- spectrum
+--- star-rating-svg
+--- sumoselect
+--- sweetalert
+--- tabs
+--- timeline.min
+--- treeview
+--- calender
+--- chart
+--- chat
+--- error-pages
+--- range
+--- ribbon
+--- form-wizard
+--- weather-cards
+--- widgets
+--- alignments
+--- background
+--- border
+--- display
+--- float-elements
+--- height
+--- margin
+--- padding
+--- position
+--- typography
+--- width
+*/
+
+/* ######## FONT ######## */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+
+
+/* ######## BOOTSTRAP ######## */ 
+@import "variables";
+@import "bootstrap/bootstrap-styles";
+@import "bootstrap/accordion";
+@import "bootstrap/alert";
+@import "bootstrap/avatars";
+@import "bootstrap/badges";
+@import "bootstrap/blackquote";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/button";
+@import "bootstrap/buttons";
+@import "bootstrap/cards";
+@import "bootstrap/carousel";
+@import "bootstrap/dropdown";
+@import "bootstrap/forms";
+@import "bootstrap/grid";
+@import "bootstrap/input-group";
+@import "bootstrap/modal";
+@import "bootstrap/navigation";
+@import "bootstrap/pagination";
+@import "bootstrap/panel";
+@import "bootstrap/popover";
+@import "bootstrap/progress";
+@import "bootstrap/tables";
+@import "bootstrap/tags";
+@import "bootstrap/thumbnail";
+@import "bootstrap/tooltip";
+
+/*  ######## CUSTOM-STYLES ######## */ 
+@import "custom/components-col";
+@import "custom/count-down";
+@import "custom/custom-forms";
+@import "custom/custom-styles";
+@import "custom/file-manager";
+@import "custom/font";
+@import "custom/gallery";
+@import "custom/highlight";
+@import "custom/labels";
+@import "custom/list-group";
+@import "custom/media";
+@import "custom/navbar";
+@import "custom/pricing";
+@import "custom/rating";
+@import "custom/tabs-menu";
+@import "custom/timeline";
+
+/* ######## LAYOUT-STYLES ######## */
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/horizontal-menu";
+@import "layouts/icons-list";
+@import "layouts/item-styles";
+@import "layouts/loaders";
+@import "layouts/rtl";
+@import "layouts/sidemenu";
+
+/* ######## LIBRARY-STYLES ######## */
+@import "lib/datepicker";
+@import "lib/jvector";
+@import "lib/select2";
+@import "lib/select-group";
+@import "lib/selectize";
+
+/* ######## PLUGIN-STYLES ######## */
+@import "plugins/accordion";
+@import "plugins/bootstrap-datepicker";
+@import "plugins/buttons.bootstrap5.min";
+@import "plugins/c3-chart";
+@import "plugins/clndr";
+@import "plugins/dataTables.bootstrap5";
+@import "plugins/date-picker";
+@import "plugins/daterangepicker";
+@import "plugins/demo";
+@import "plugins/fancy_fileupload";
+@import "plugins/fileupload";
+@import "plugins/flipclock";
+@import "plugins/fullcalendar";
+@import "plugins/gallery";
+@import "plugins/intlTelInput";
+@import "plugins/ion.rangeSlider";
+@import "plugins/ion.rangeSlider.skinFlat";
+@import "plugins/jquery-jvectormap-2.0.2";
+@import "plugins/jquery.countdown";
+@import "plugins/jquery.growl";
+@import "plugins/jquery.steps";
+@import "plugins/jquery.timepicker";
+@import "plugins/jquery.transfer";
+@import "plugins/jquerysctipttop";
+@import "plugins/jquerytransfer-icon_font";
+@import "plugins/leaflet";
+@import "plugins/main";
+@import "plugins/morris";
+@import "plugins/multi.min";
+@import "plugins/multiple-select";
+@import "plugins/notifIt";
+@import "plugins/nv.d3";
+@import "plugins/owl.carousel";
+@import "plugins/perfect-scrollbar";
+@import "plugins/quill.bubble";
+@import "plugins/quill.snow";
+@import "plugins/responsive.bootstrap5";
+@import "plugins/richtext";
+@import "plugins/select2.min";
+@import "plugins/sidebar";
+@import "plugins/smart_wizard_theme_arrows";
+@import "plugins/smart_wizard_theme_circles";
+@import "plugins/smart_wizard_theme_dots";
+@import "plugins/smart_wizard";
+@import "plugins/spectrum";
+@import "plugins/star-rating-svg";
+@import "plugins/sumoselect";
+@import "plugins/sweetalert";
+@import "plugins/tabs";
+@import "plugins/timeline.min";
+@import "plugins/treeview";
+
+/* ######## TEMPLATE-STYLES ######## */
+@import "template/calender";
+@import "template/chart";
+@import "template/chat";
+@import "template/error-pages";
+@import "template/range";
+@import "template/ribbon";
+@import "template/form-wizard";
+@import "template/weather-cards";
+@import "template/widgets";
+
+/* ######## UTILITIES-STYLES ######## */
+@import "utilities/alignments";
+@import "utilities/background";
+@import "utilities/border";
+@import "utilities/display";
+@import "utilities/float-elements";
+@import "utilities/height";
+@import "utilities/margin";
+@import "utilities/padding";
+@import "utilities/position";
+@import "utilities/typography";
+@import "utilities/width";
